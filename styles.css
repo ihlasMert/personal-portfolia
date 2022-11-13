@@ -4,6 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
+  text-align: left;
 }
 header {
   width: 100%;
@@ -43,7 +44,7 @@ nav > ul > li > a {
 /* section one */
 
 .about-me {
-  margin-top: 5%;
+  margin-top: 1%;
   margin-left: 12%;
   width: 1000px;
   height: 700px;
@@ -79,10 +80,33 @@ nav > ul > li > a {
   right: 30px;
 }
 /* projects sections */
+
 .projects {
-  background-color: red;
   width: 1000px;
-  height: 700;
-  position: relative;
+  height: 20vh;
+  border: 3px solid red;
+  background-color: black;
+  position: absolute;
   left: 22%;
+  margin-top: 0.5rem;
+}
+
+.projects h2 {
+  color: #fff;
+}
+.projects-two {
+  color: #fff;
+  display: flex;
+  text-transform: capitalize;
+}
+.projects-two p{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: 10px;
+}
+footer{
+  position: absolute;
+  top: 98%;
+  left: 50% ;
 }
