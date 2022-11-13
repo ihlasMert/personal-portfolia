@@ -52,7 +52,7 @@ nav > ul > li > a {
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-color: black;
+  color: black;
   flex-direction: column;
   border: 3px solid red;
   position: relative;
@@ -76,5 +76,13 @@ color: black;
   float: right;
   position: relative;
   top: -55%;
-  right:  30px;
+  right: 30px;
+}
+/* projects sections */
+.projects {
+  background-color: red;
+  width: 1000px;
+  height: 700;
+  position: relative;
+  left: 22%;
 }
